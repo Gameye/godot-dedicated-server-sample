@@ -1,0 +1,17 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="Godot Dedicated Server Sample"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.7")
+
+[autoload]
+
+ServerBootstrap="*res://server_bootstrap.gd"
+MatchLifecycle="*res://match_lifecycle.gd"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"

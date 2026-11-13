@@ -1,0 +1,4 @@
+*
+!build/game-server.x86_64
+!build/game-server.pck
+!start.sh
